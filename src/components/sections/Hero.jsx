@@ -1,5 +1,5 @@
 import {Image, Video} from '@shopify/hydrogen';
-import {HeroSwiper} from '../HeroSwiper.client';
+// import {HeroSwiper} from '../HeroSwiper.client';
 import ChvronIcon from '~/assets/icons/chevron.svg';
 
 import {Heading, Text} from '~/components';
@@ -210,7 +210,7 @@ export function Hero({
           : 'aspect-[4/5] sm:aspect-square md:aspect-[5/4] lg:aspect-[3/2] xl:aspect-[2/1]'
       }`}
     >
-      <HeroSwiper swiperElements={swiperElements} />
+      {/* <HeroSwiper swiperElements={swiperElements} /> */}
     </section>
   );
   // <section

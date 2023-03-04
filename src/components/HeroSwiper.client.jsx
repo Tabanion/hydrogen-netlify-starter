@@ -1,11 +1,11 @@
 import {register} from 'swiper/element/bundle';
-import {Image, Video} from '@shopify/hydrogen';
+
 register();
 
 export function HeroSwiper({swiperElements}) {
   return (
     <>
-      {/* <style>
+      <style>
         {`
         swiper-container {
           width: 100%;
@@ -41,7 +41,7 @@ export function HeroSwiper({swiperElements}) {
         {swiperElements.map((element, index) => (
           <swiper-slide key={index}>{element}</swiper-slide>
         ))}
-      </swiper-container> */}
+      </swiper-container>
     </>
   );
 }

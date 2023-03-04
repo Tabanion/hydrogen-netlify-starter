@@ -70,7 +70,7 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
         : 'bg-contrast/80 text-primary'
     } ${
       y > 50 && !isHome ? 'shadow-lightHeader ' : ''
-    }flex lg:hidden items-center h-nav sticky backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-4 px-4 md:px-8`,
+    }flex lg:hidden items-center h-nav sticky z-40 top-0 justify-between w-full leading-none gap-4 px-4 md:px-8`,
   };
 
   return (

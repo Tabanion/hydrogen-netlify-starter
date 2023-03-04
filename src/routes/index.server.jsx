@@ -50,6 +50,8 @@ function HomepageContent() {
 
   const {heroBanners, featuredCollections, featuredProducts} = data;
 
+  console.log(heroBanners.nodes);
+
   // fill in the hero banners with placeholders if they're missing
   const [primaryHero, secondaryHero, tertiaryHero] = getHeroPlaceholder(
     heroBanners.nodes,
@@ -137,6 +139,16 @@ const HOMEPAGE_CONTENT_QUERY = gql`
           value
         }
         spread: metafield(namespace: "hero", key: "spread") {
+          reference {
+            ...Media
+          }
+        }
+        spread_2: metafield(namespace: "hero", key: "spread_2") {
+          reference {
+            ...Media
+          }
+        }
+        spread_3: metafield(namespace: "hero", key: "spread_3") {
           reference {
             ...Media
           }

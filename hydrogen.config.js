@@ -5,18 +5,15 @@ export default defineConfig({
     defaultCountryCode: 'US',
     defaultLanguageCode: 'EN',
     storeDomain:
-      // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'hydrogen-preview.myshopify.com',
+      process.env?.PUBLIC_STORE_DOMAIN || 'sparks-4342.myshopify.com',
     storefrontToken:
-      // @ts-ignore
-      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      '3b580e70970c4528da70c98e097c2fa0',
-    privateStorefrontToken:
-      // @ts-ignore
-      Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
-    storefrontApiVersion: '2022-07',
-    // @ts-ignore
-    storefrontId: Oxygen?.env?.PUBLIC_STOREFRONT_ID,
+      process.env?.PUBLIC_STOREFRONT_API_TOKEN ||
+      '5da351baa4820c47c48ec31ae30e3a29',
+    // privateStorefrontToken:
+    //   process.env?.PRIVATE_STOREFRONT_API_TOKEN ||
+    //   '5da351baa4820c47c48ec31ae30e3a29',
+    storefrontApiVersion: '2023-01',
+    storefrontId: process.env?.PUBLIC_STOREFRONT_ID || 'sparks-4342',
   },
   session: CookieSessionStorage('__session', {
     path: '/',

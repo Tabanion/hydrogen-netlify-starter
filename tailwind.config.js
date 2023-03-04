@@ -14,6 +14,41 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      keyframes: {
+        textRevealTopBottom: {
+          '0%': {
+            opacity: 0,
+            transform: 'translateY(-120px)',
+          },
+          '100%': {
+            opacity: 1,
+            transform: 'translateY(0)',
+          },
+        },
+        textRevealBottomTop: {
+          '0%': {
+            opacity: 0,
+            transform: 'translateY(240px)',
+          },
+          '100%': {
+            opacity: 1,
+            transform: 'translateY(0)',
+          },
+        },
+        scaleImage: {
+          '0%': {
+            transform: 'scale(1)',
+          },
+          '100%': {
+            transform: 'scale(1.1)',
+          },
+        },
+      },
+      animation: {
+        'reveal-top-bottom': 'textRevealTopBottom 1s linear',
+        'reveal-bottom-top': 'textRevealBottomTop 1s linear',
+        'scale-image': 'scaleImage 3s linear',
+      },
       colors: {
         primary: withOpacityValue('--color-primary'),
         contrast: withOpacityValue('--color-contrast'),

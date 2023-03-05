@@ -43,16 +43,30 @@ module.exports = {
             transform: 'scale(1.1)',
           },
         },
+        float: {
+          '0%': {
+            transform: 'translateY(0px)',
+          },
+          '50%': {
+            transform: 'translateY(-20px)',
+          },
+          '100%': {
+            transform: 'translateY(0px)',
+          },
+        },
       },
       animation: {
         'reveal-top-bottom': 'textRevealTopBottom 1s linear',
         'reveal-bottom-top': 'textRevealBottomTop 1s linear',
         'scale-image': 'scaleImage 3s linear',
+        'float-object': 'float 6s ease-in-out infinite',
       },
       colors: {
         primary: withOpacityValue('--color-primary'),
         contrast: withOpacityValue('--color-contrast'),
         notice: withOpacityValue('--color-accent'),
+        belise: withOpacityValue('--color-belise'),
+        beliseLight: withOpacityValue('--color-belise-light'),
         shopPay: 'var(--color-shop-pay)',
       },
       screens: {
@@ -100,6 +114,7 @@ module.exports = {
         border: 'inset 0px 0px 0px 1px rgb(var(--color-primary) / 0.08)',
         darkHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.4)',
         lightHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.05)',
+        card: '0 3px 10px rgb(0 0 0 / 0.2)',
       },
     },
   },

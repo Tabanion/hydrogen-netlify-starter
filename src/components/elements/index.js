@@ -7,3 +7,5 @@ export {LogoutButton} from './LogoutButton.client';
 export {Section} from './Section';
 export {Skeleton} from './Skeleton';
 export {Text} from './Text';
+export {ChevronDown} from './ChevronDown.client';
+export {OfferCard} from './OfferCard.client';

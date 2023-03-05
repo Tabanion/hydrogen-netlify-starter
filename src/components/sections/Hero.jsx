@@ -3,7 +3,7 @@ import {HeroSwiper} from '../HeroSwiper.client';
 
 import {Heading} from '~/components';
 import {ChevronDown} from '../index';
-import Logo from '~/assets/images/logo.png';
+import Logo from '/logo.png';
 
 export function Hero({height, loading, spread, spread_2, spread_3, top}) {
   const swiperElements = [];

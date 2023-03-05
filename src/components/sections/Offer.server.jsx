@@ -1,7 +1,4 @@
-import {OfferCard} from '../elements/OfferCard.client';
-import Woman from '../../../public/woman.jpeg';
-import Man from '../../../public/man.jpeg';
-import Products from '../../../public/products.png';
+import {OfferCards} from '../elements/OfferCards.client';
 
 export const Offer = () => {
   return (
@@ -18,33 +15,8 @@ export const Offer = () => {
             Descoperă Gama Noastră de Servicii și Produse
           </h2>
         </div>
-        <div className="flex flex-col justify-center gap-4 md:flex-row m-4">
-          {CARDS.map((card) => (
-            <OfferCard key={card.title} {...card} />
-          ))}
-        </div>
+        <OfferCards />
       </div>
     </section>
   );
 };
-
-const CARDS = [
-  {
-    title: 'Femei',
-    text: 'AirTouch, Manichiură, Epilare - descoperă toate serviciile noastre pentru femei',
-    image: Woman,
-    tags: ['#beauty', '#manicure', '#haircoloring'],
-  },
-  {
-    title: 'Bărbați',
-    text: 'Tunsori, Barbă, Tonare - descoperă toate serviciile noastre pentru bărbați',
-    image: Man,
-    tags: ['#style', '#shaving', '#haircut'],
-  },
-  {
-    title: 'Magazin Online',
-    text: 'Nashi, Davines - alege și comandă produsele tale favorite Nashi și Davines',
-    image: Products,
-    tags: ['#nashi', '#davines', '#sparks'],
-  },
-];

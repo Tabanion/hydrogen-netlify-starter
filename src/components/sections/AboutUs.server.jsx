@@ -1,5 +1,5 @@
 import {HeroSwiper} from '../HeroSwiper.client';
-import FlowerShape from '../../../public/lower-shape.png';
+import FlowerShape from '../../../public/flower-shape.png';
 import Hair from '../../../public/hair-1.jpg';
 import Haircut from '../../../public/haircut.jpg';
 import Manicure from '../../../public/manicure.jpg';

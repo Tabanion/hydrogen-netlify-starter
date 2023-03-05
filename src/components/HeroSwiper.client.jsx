@@ -1,47 +1,39 @@
-import {register} from 'swiper/element/bundle';
+// Import Swiper React components
+import {Swiper, SwiperSlide} from 'swiper/react';
+import SwiperCore, {Autoplay, Pagination, Navigation, EffectFade} from 'swiper';
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
-register();
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 
 export function HeroSwiper({swiperElements}) {
   return (
-    <>
-      <style>
-        {`
-        swiper-container {
-          width: 100%;
-          height: 100%;
+    <div
+      style={
+        {
+          // width: '100vw',
+          // display: 'flex',
+          // alignItems: 'center',
+          // justifyContent: 'center',
         }
-    
-        swiper-slide {
-          text-align: center;
-          font-size: 18px;
-          background: #fff;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        swiper-slide img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-        `}
-      </style>
-      <swiper-container
-        class="mySwiper"
-        navigation="false"
-        space-between="30"
-        centered-slides="true"
-        autoplay-delay="4000"
-        autoplay-disable-on-interaction="false"
-        effect="fade"
+      }
+    >
+      <Swiper
+        spaceBetween={30}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
+        modules={[Autoplay, Navigation, EffectFade]}
+        className="mySwiper"
+        effect={'fade'}
       >
         {swiperElements.map((element, index) => (
-          <swiper-slide key={index}>{element}</swiper-slide>
+          <SwiperSlide key={index}>{element}</SwiperSlide>
         ))}
-      </swiper-container>
-    </>
+      </Swiper>
+    </div>
   );
 }

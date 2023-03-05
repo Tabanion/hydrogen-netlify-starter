@@ -35,7 +35,7 @@ export function Hero({
         </div>
         <div className="absolute inset-0 grid flex-grow grid-flow-col pointer-events-none auto-cols-fr -z-10 content-stretch overflow-clip bg-black opacity-25"></div>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-2xl py-32">
             <div className="animate-reveal-top-bottom">
               <div className="sm:mb-8 sm:flex sm:justify-center">
                 <img
@@ -95,7 +95,7 @@ export function Hero({
         </div>
         <div className="absolute inset-0 grid flex-grow grid-flow-col pointer-events-none auto-cols-fr -z-10 content-stretch overflow-clip bg-black opacity-25"></div>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-2xl py-32 ">
             <div className="animate-reveal-top-bottom">
               <div className="sm:mb-8 sm:flex sm:justify-center">
                 <img
@@ -156,7 +156,7 @@ export function Hero({
         </div>
         <div className="absolute inset-0 grid flex-grow grid-flow-col pointer-events-none auto-cols-fr -z-10 content-stretch overflow-clip bg-black opacity-25"></div>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-2xl py-32 ">
             <div className="animate-reveal-top-bottom">
               <div className="sm:mb-8 sm:flex sm:justify-center">
                 <img
@@ -245,7 +245,7 @@ export function Hero({
   //     )}
   //   </div>
   // <div class="relative px-6 lg:px-8">
-  //   <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+  //   <div class="mx-auto max-w-2xl py-32 ">
   //     <div class="hidden sm:mb-8 sm:flex sm:justify-center">
   //       <div class="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
   //         Announcing our next round of funding.{' '}

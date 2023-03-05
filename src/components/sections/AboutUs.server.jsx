@@ -39,7 +39,7 @@ export const AboutUs = () => {
       <div className="m-auto mt-16 w-full xl:w-1/2 flex xl:mt-auto justify-center">
         <img
           className="left-0 bottom-48 absolute sm:top-8 sm:left-12 animate-float-object opacity-50"
-          src="/public/images/flower-shape.png"
+          src="/images/flower-shape.png"
         />
 
         <div className="w-2/3 relative">
@@ -57,15 +57,15 @@ export const AboutUs = () => {
 
 const IMAGES = [
   {
-    src: '/public/images/hair-1.jpg',
+    src: '/images/hair-1.jpg',
     alt: 'woman hair style',
   },
   {
-    src: '/public/images/haircut.jpg',
+    src: '/images/haircut.jpg',
     alt: 'Barber man style',
   },
   {
-    src: '/public/images/manicure.jpg',
+    src: '/images/manicure.jpg',
     alt: 'woman manicure salon',
   },
 ];

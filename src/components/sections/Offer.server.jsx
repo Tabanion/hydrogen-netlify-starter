@@ -29,19 +29,19 @@ const CARDS = [
   {
     title: 'Femei',
     text: 'AirTouch, Manichiură, Epilare - descoperă toate serviciile noastre pentru femei',
-    image: '/public/images/woman.jpeg',
+    image: '/images/woman.jpeg',
     tags: ['#beauty', '#manicure', '#haircoloring'],
   },
   {
     title: 'Bărbați',
     text: 'Tunsori, Barbă, Tonare - descoperă toate serviciile noastre pentru bărbați',
-    image: '/public/images/man.jpeg',
+    image: '/images/man.jpeg',
     tags: ['#style', '#shaving', '#haircut'],
   },
   {
     title: 'Magazin Online',
     text: 'Nashi, Davines - alege și comandă produsele tale favorite Nashi și Davines',
-    image: '/public/images/products.png',
+    image: '/images/products.png',
     tags: ['#nashi', '#davines', '#sparks'],
   },
 ];

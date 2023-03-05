@@ -1,8 +1,8 @@
 import {HeroSwiper} from '../HeroSwiper.client';
-import FlowerShape from '/flower-shape.png';
-import Hair from '/hair-1.jpg';
-import Haircut from '/haircut.jpg';
-import Manicure from '/manicure.jpg';
+import FlowerShape from '../../../public/lower-shape.png';
+import Hair from '../../../public/hair-1.jpg';
+import Haircut from '../../../public/haircut.jpg';
+import Manicure from '../../../public/manicure.jpg';
 
 export const AboutUs = () => {
   return (

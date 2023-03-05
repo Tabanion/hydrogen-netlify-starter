@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import CardShape from '/card-shape-1.png';
+import CardShape from '../../../public/card-shape-1.png';
 
 export const OfferCard = ({title, text, image, tags}) => {
   const [hovered, setHovered] = useState(false);

@@ -29,7 +29,7 @@ export function Hero({height, loading, spread, spread_2, spread_3, top}) {
                 <div className="sm:mb-8 sm:flex sm:justify-center">
                   <img
                     className="object-cover h-64 w-64 m-auto"
-                    src="/src/assets/images/logo.png"
+                    src="/public/images/logo.png"
                   />
                 </div>
 
@@ -88,7 +88,7 @@ export function Hero({height, loading, spread, spread_2, spread_3, top}) {
                 <div className="sm:mb-8 sm:flex sm:justify-center">
                   <img
                     className="object-cover h-64 w-64 m-auto"
-                    src="/src/assets/images/logo.png"
+                    src="/public/images/logo.png"
                   />
                 </div>
 
@@ -147,7 +147,7 @@ export function Hero({height, loading, spread, spread_2, spread_3, top}) {
                 <div className="sm:mb-8 sm:flex sm:justify-center">
                   <img
                     className="object-cover h-64 w-64 m-auto"
-                    src="/src/assets/images/logo.png"
+                    src="/public/images/logo.png"
                   />
                 </div>
 

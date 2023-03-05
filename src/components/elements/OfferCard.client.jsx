@@ -14,7 +14,7 @@ export const OfferCard = ({title, text, image, tags}) => {
         className={`absolute z-0 transition ease-in-out opacity-${
           hovered ? 100 : 25
         }`}
-        src="/src/assets/images/card-shape-1.png"
+        src="/public/images/card-shape-1.png"
         alt={title}
       />
       <img

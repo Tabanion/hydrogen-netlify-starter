@@ -1,7 +1,7 @@
 import {OfferCard} from '../elements/OfferCard.client';
-import Woman from '/woman.jpeg';
-import Man from '/man.jpeg';
-import Products from '/products.png';
+import Woman from '~/assets/images/woman.jpeg';
+import Man from '~/assets/images/man.jpeg';
+import Products from '~/assets/images/products.png';
 
 export const Offer = () => {
   return (

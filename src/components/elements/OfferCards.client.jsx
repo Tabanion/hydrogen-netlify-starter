@@ -1,8 +1,8 @@
 import {useState} from 'react';
-import CardShape from '../../../public/card-shape-1.png';
-import Woman from '../../../public/woman.jpeg';
-import Man from '../../../public/man.jpeg';
-import Products from '../../../public/products.png';
+import CardShape from '~/assets/images/card-shape-1.png';
+import Woman from '~/assets/images/woman.jpeg';
+import Man from '~/assets/images/man.jpeg';
+import Products from '~/assets/images/products.png';
 
 export const OfferCards = () => {
   const [hovered, setHovered] = useState(false);

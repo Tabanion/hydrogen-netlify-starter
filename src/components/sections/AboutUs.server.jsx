@@ -1,4 +1,8 @@
 import {HeroSwiper} from '../HeroSwiper.client';
+import FlowerShape from '~/assets/images/flower-shape.png';
+import Hair from '~/assets/images/hair-1.jpg';
+import Haircut from '~/assets/images/haircut.jpg';
+import Manicure from '~/assets/images/manicure.jpg';
 
 export const AboutUs = () => {
   return (
@@ -39,7 +43,7 @@ export const AboutUs = () => {
       <div className="m-auto mt-16 w-full xl:w-1/2 flex xl:mt-auto justify-center">
         <img
           className="left-0 bottom-48 absolute sm:top-8 sm:left-12 animate-float-object opacity-50"
-          src="/images/flower-shape.png"
+          src={FlowerShape}
         />
 
         <div className="w-2/3 relative">
@@ -57,15 +61,15 @@ export const AboutUs = () => {
 
 const IMAGES = [
   {
-    src: '/images/hair-1.jpg',
+    src: Hair,
     alt: 'woman hair style',
   },
   {
-    src: '/images/haircut.jpg',
+    src: Haircut,
     alt: 'Barber man style',
   },
   {
-    src: '/images/manicure.jpg',
+    src: Manicure,
     alt: 'woman manicure salon',
   },
 ];

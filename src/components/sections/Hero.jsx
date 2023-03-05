@@ -3,6 +3,7 @@ import {HeroSwiper} from '../HeroSwiper.client';
 
 import {Heading} from '~/components';
 import {ChevronDown} from '../index';
+import Logo from '~/assets/images/logo.png';
 
 export function Hero({height, loading, spread, spread_2, spread_3, top}) {
   const swiperElements = [];
@@ -27,10 +28,7 @@ export function Hero({height, loading, spread, spread_2, spread_3, top}) {
             <div>
               <div className="animate-reveal-top-bottom">
                 <div className="sm:mb-8 sm:flex sm:justify-center">
-                  <img
-                    className="object-cover h-64 w-64 m-auto"
-                    src="/images/logo.png"
-                  />
+                  <img className="object-cover h-64 w-64 m-auto" src={Logo} />
                 </div>
 
                 <div className="text-center text-white">
@@ -86,10 +84,7 @@ export function Hero({height, loading, spread, spread_2, spread_3, top}) {
             <div>
               <div className="animate-reveal-top-bottom">
                 <div className="sm:mb-8 sm:flex sm:justify-center">
-                  <img
-                    className="object-cover h-64 w-64 m-auto"
-                    src="/images/logo.png"
-                  />
+                  <img className="object-cover h-64 w-64 m-auto" src={Logo} />
                 </div>
 
                 <div className="text-center text-white">
@@ -145,10 +140,7 @@ export function Hero({height, loading, spread, spread_2, spread_3, top}) {
             <div>
               <div className="animate-reveal-top-bottom">
                 <div className="sm:mb-8 sm:flex sm:justify-center">
-                  <img
-                    className="object-cover h-64 w-64 m-auto"
-                    src="/images/logo.png"
-                  />
+                  <img className="object-cover h-64 w-64 m-auto" src={Logo} />
                 </div>
 
                 <div className="text-center text-white">

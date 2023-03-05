@@ -1,4 +1,7 @@
 import {OfferCard} from '../elements/OfferCard.client';
+import Woman from '~/assets/images/woman.jpeg';
+import Man from '~/assets/images/man.jpeg';
+import Products from '~/assets/images/products.png';
 
 export const Offer = () => {
   return (
@@ -29,19 +32,19 @@ const CARDS = [
   {
     title: 'Femei',
     text: 'AirTouch, Manichiură, Epilare - descoperă toate serviciile noastre pentru femei',
-    image: '/images/woman.jpeg',
+    image: Woman,
     tags: ['#beauty', '#manicure', '#haircoloring'],
   },
   {
     title: 'Bărbați',
     text: 'Tunsori, Barbă, Tonare - descoperă toate serviciile noastre pentru bărbați',
-    image: '/images/man.jpeg',
+    image: Man,
     tags: ['#style', '#shaving', '#haircut'],
   },
   {
     title: 'Magazin Online',
     text: 'Nashi, Davines - alege și comandă produsele tale favorite Nashi și Davines',
-    image: '/images/products.png',
+    image: Products,
     tags: ['#nashi', '#davines', '#sparks'],
   },
 ];

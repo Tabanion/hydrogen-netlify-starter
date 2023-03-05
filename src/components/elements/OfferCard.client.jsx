@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import CardShape from '~/assets/images/card-shape-1.png';
 
 export const OfferCard = ({title, text, image, tags}) => {
   const [hovered, setHovered] = useState(false);
@@ -14,7 +15,7 @@ export const OfferCard = ({title, text, image, tags}) => {
         className={`absolute z-0 transition ease-in-out opacity-${
           hovered ? 100 : 25
         }`}
-        src="/images/card-shape-1.png"
+        src={CardShape}
         alt={title}
       />
       <img

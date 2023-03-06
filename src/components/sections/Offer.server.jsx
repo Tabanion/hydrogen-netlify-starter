@@ -2,7 +2,7 @@ import {OfferCards} from '../elements/OfferCards.client';
 
 export const Offer = () => {
   return (
-    <section className="w-100 flex justify-center align-center">
+    <section className="w-full max-w-full flex justify-center align-center p-4">
       <div className="m-auto">
         <div className="my-16">
           <p

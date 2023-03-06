@@ -5,20 +5,20 @@ import Man from '~/assets/images/man.jpeg';
 import Products from '~/assets/images/products.png';
 
 export const OfferCards = () => {
-  const [hovered, setHovered] = useState(false);
+  const [hovered, setHovered] = useState(-1);
 
   return (
-    <div className="flex flex-col justify-center gap-4 md:flex-row m-4">
-      {CARDS.map(({title, image, text, tags}) => (
+    <div className="flex flex-col justify-center gap-4 md:flex-row">
+      {CARDS.map(({title, image, text, tags}, index) => (
         <div
           onClick={() => console.log('test')}
-          className="m-auto pb-4 bg-white max-w-sm rounded overflow-hidden shadow-card transition ease-in-out hover:border hover:border-belise hover:cursor-pointer hover:drop-shadow-2xl"
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
+          className="m-auto pb-4 bg-white max-w-sm rounded overflow-hidden shadow-card transition ease-in-out hover:border hover:border-belise hover:cursor-pointer"
+          onMouseEnter={() => setHovered(index)}
+          onMouseLeave={() => setHovered(-1)}
         >
           <img
             className={`absolute z-0 transition ease-in-out opacity-${
-              hovered ? 100 : 25
+              hovered == index ? 100 : 25
             }`}
             src={CardShape}
             alt={title}

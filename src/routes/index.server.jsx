@@ -13,7 +13,7 @@ import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
 import {FeaturedCollections, Hero} from '~/components';
 import {Layout, ProductSwimlane, Offer} from '~/components/index.server';
-import {AboutUs} from '../components/index.server';
+import {AboutUs, WomanServices} from '../components/index.server';
 
 export default function Homepage() {
   useServerAnalytics({
@@ -63,6 +63,7 @@ function HomepageContent() {
       )}
       <Offer />
       <AboutUs />
+      <WomanServices />
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"

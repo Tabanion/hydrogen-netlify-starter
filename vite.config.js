@@ -19,4 +19,7 @@ export default defineConfig({
   ssr: {
     noExternal: ['swiper'],
   },
+  server: {
+    host: true,
+  },
 });

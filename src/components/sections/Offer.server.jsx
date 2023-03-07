@@ -9,10 +9,10 @@ export const Offer = () => {
             id="offer-section"
             className="text-belise text-center font-semibold text-lg sm:text-xl font-serif mb-4"
           >
-            SPARKS Beauty & Care
+            SPARKS - Beauty & Care
           </p>
           <h2 className="text-center font-semibold text-2xl sm:text-4xl font-serif">
-            Descoperă Gama Noastră de Servicii și Produse
+            Descoperă gama noastră de servicii și produse
           </h2>
         </div>
         <OfferCards />

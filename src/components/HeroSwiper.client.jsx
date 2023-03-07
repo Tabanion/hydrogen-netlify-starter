@@ -9,22 +9,21 @@ import 'swiper/css/effect-fade';
 
 export function HeroSwiper({swiperElements}) {
   return (
-    <div style={{maxWidth: '100%'}}>
-      <Swiper
-        spaceBetween={30}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        navigation={true}
-        modules={[Autoplay, Navigation, EffectFade]}
-        className="mySwiper"
-        effect={'fade'}
-      >
-        {swiperElements.map((element, index) => (
-          <SwiperSlide key={index}>{element}</SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <Swiper
+      style={{maxWidth: '100%', height: '100%'}}
+      spaceBetween={30}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+      navigation={true}
+      modules={[Autoplay, Navigation, EffectFade]}
+      className="mySwiper"
+      effect={'fade'}
+    >
+      {swiperElements.map((element, index) => (
+        <SwiperSlide key={index}>{element}</SwiperSlide>
+      ))}
+    </Swiper>
   );
 }

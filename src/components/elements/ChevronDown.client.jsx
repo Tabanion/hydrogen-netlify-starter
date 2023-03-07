@@ -9,7 +9,7 @@ const scrollIntoView = (elementId) => {
 
 export const ChevronDown = () => {
   return (
-    <div className="flex items-center justify-center mt-12 sm:mt-48">
+    <div className="flex items-center justify-center mt-20">
       <div className="animate-bounce">
         <img
           className="h-6 w-6 rotate-90 fill-white hover:scale-125 hover:cursor-pointer"

@@ -11,6 +11,7 @@ export const OfferCards = () => {
     <div className="flex flex-col justify-center gap-4 md:flex-row">
       {CARDS.map(({title, image, text, tags}, index) => (
         <div
+          key={index}
           onClick={() => console.log('test')}
           className="m-auto pb-4 bg-white max-w-sm rounded overflow-hidden shadow-card transition ease-in-out hover:border hover:border-belise hover:cursor-pointer"
           onMouseEnter={() => setHovered(index)}

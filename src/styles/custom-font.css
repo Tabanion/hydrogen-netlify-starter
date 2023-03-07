@@ -11,3 +11,27 @@
   font-style: italic;
   src: url('/fonts/IBMPlexSerif-TextItalic.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'DancingScript';
+  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/DancingScript-Bold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'DancingScript';
+  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/DancingScript-Medium.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'DancingScript';
+  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/DancingScript-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'DancingScript';
+  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/DancingScript-SemiBold.ttf') format('ttf');
+}

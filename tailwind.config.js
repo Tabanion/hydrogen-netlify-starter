@@ -54,12 +54,30 @@ module.exports = {
             transform: 'translateY(0px)',
           },
         },
+        spin: {
+          '0%': {
+            transform: 'rotate(0deg)',
+          },
+          '100%': {
+            transform: 'rotate(360deg)',
+          },
+        },
+        fade: {
+          '0%': {
+            opacity: 1,
+          },
+          '100%': {
+            opacity: 0,
+          },
+        },
       },
       animation: {
         'reveal-top-bottom': 'textRevealTopBottom 1s linear',
         'reveal-bottom-top': 'textRevealBottomTop 1s linear',
         'scale-image': 'scaleImage 3s linear',
         'float-object': 'float 6s ease-in-out infinite',
+        'spin-object': 'spin 7s linear infinite',
+        'fade-object': 'fade 1s linear',
       },
       colors: {
         primary: withOpacityValue('--color-primary'),
@@ -116,6 +134,9 @@ module.exports = {
         darkHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.4)',
         lightHeader: 'inset 0px -1px 0px 0px rgba(21, 21, 21, 0.05)',
         card: '0 3px 10px rgb(0 0 0 / 0.2)',
+      },
+      dropShadow: {
+        basic: '2px 2px 4px #000',
       },
     },
   },

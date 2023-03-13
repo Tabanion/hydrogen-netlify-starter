@@ -4,11 +4,12 @@ import {useLocalization, useShopQuery, CacheLong, gql} from '@shopify/hydrogen';
 import {Header} from '~/components';
 import {Footer} from '~/components/index.server';
 import {parseMenu} from '~/lib/utils';
+import {Loader} from './Loader.client';
 
 const HEADER_MENU_HANDLE = 'main-menu';
 const FOOTER_MENU_HANDLE = 'footer';
 
-const SHOP_NAME_FALLBACK = 'Hydrogen';
+const SHOP_NAME_FALLBACK = 'Sparks';
 
 /**
  * A server component that defines a structure and organization of a page that can be used in different parts of the Hydrogen app
@@ -16,6 +17,7 @@ const SHOP_NAME_FALLBACK = 'Hydrogen';
 export function Layout({children}) {
   return (
     <>
+      <Loader />
       <div className="flex flex-col min-h-screen">
         <div className="">
           <a href="#mainContent" className="sr-only">

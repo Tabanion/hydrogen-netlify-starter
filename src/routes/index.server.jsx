@@ -1,4 +1,4 @@
-import {Suspense} from 'react';
+import {Suspense, useState} from 'react';
 import {
   CacheLong,
   gql,
@@ -98,7 +98,7 @@ function SeoForHomepage() {
       data={{
         title: name,
         description,
-        titleTemplate: '%s · Powered by Hydrogen',
+        titleTemplate: 'Sparks - Beauty & Care',
       }}
     />
   );

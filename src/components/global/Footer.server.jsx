@@ -28,17 +28,16 @@ export function Footer({menu}) {
         bg-primary dark:bg-contrast dark:text-primary text-contrast overflow-hidden`}
     >
       <FooterMenu menu={menu} />
-      <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
+      {/* <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
         <Heading size="lead" className="cursor-default" as="h3">
           Country
         </Heading>
         <CountrySelector />
-      </section>
+      </section> */}
       <div
         className={`self-end pt-8 opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
       >
-        &copy; {new Date().getFullYear()} / Shopify, Inc. Hydrogen is an MIT
-        Licensed Open Source project. This website is carbon&nbsp;neutral.
+        &copy; {new Date().getFullYear()} / SPARKS - Beauty & Care
       </div>
     </Section>
   );

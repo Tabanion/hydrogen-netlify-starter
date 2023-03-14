@@ -23,7 +23,8 @@ export function Header({title, menu}) {
   const localeMatch = /^\/([a-z]{2})(\/|$)/i.exec(pathname);
   const countryCode = localeMatch ? localeMatch[1] : undefined;
 
-  const isHome = pathname === `/${countryCode ? countryCode + '/' : ''}`;
+  // const isHome = pathname === `/${countryCode ? countryCode + '/' : ''}`;
+  const isHome = true;
 
   const {
     isOpen: isCartOpen,

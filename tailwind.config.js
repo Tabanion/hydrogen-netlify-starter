@@ -70,6 +70,9 @@ module.exports = {
             opacity: 0,
           },
         },
+        scale: {
+          transform: 'scale(1.05)',
+        },
       },
       animation: {
         'reveal-top-bottom': 'textRevealTopBottom 1s linear',
@@ -78,6 +81,7 @@ module.exports = {
         'float-object': 'float 6s ease-in-out infinite',
         'spin-object': 'spin 7s linear infinite',
         'fade-object': 'fade 1s linear',
+        scale: 'scale 1s linear',
       },
       colors: {
         primary: withOpacityValue('--color-primary'),

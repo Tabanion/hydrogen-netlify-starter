@@ -2,7 +2,7 @@ import {useState} from 'react';
 import Logo from '~/assets/images/logo-belise.png';
 
 export const Loader = () => {
-  const [showLoader, setShowLoader] = useState(true);
+  const [showLoader, setShowLoader] = useState(false);
   const [layoutClasses, setLayoutClasses] = useState(
     'fixed h-full w-full z-50 bg-belise flex justify-center items-center',
   );

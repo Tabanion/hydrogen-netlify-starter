@@ -1,20 +1,17 @@
 import {Suspense} from 'react';
 import {Seo} from '@shopify/hydrogen';
 
-import {PageHeader, Section} from '~/components';
 import {Layout} from '~/components/index.server';
-import {WomanServices} from '../../components/index';
-import {Gallery} from '../../components/Gallery.client';
 import {PriceList} from '../../components/sections/Pricelist.server';
+import {GalleryPreview} from '../../components/GalleryPreview.client';
 
-export default function Services() {
+export default function AllServices() {
   return (
     <Layout>
       <Seo type="page" data={{title: 'All Services'}} />
-      {/* <PageHeader heading="Servicii" /> */}
       <Suspense>
-        <PriceList />
-        <Gallery />
+        <PriceList withNav={true} />
+        <GalleryPreview title={'Galerie'} subtitle={'Lucrarile noastre'} />
       </Suspense>
     </Layout>
   );

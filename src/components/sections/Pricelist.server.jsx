@@ -4,12 +4,14 @@ import {Link} from '@shopify/hydrogen';
 const bgImage =
   'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/IMG_3626.jpg?v=1678739989';
 
-export const PriceList = () => {
+export const PriceList = ({withNav}) => {
   return (
-    <section className="relative flex flex-col w-full -mt-nav">
+    <section
+      className={`relative flex flex-col w-full ${withNav && '-mt-nav'}`}
+    >
       <div className="w-full h-full bg-black absolute top-0 opacity-50 z-0"></div>
       <div
-        className="w-full h-full bg-fixed bg-cover bg-center flex flex-col gap-8 justify-center p-6 pt-16 sm:p-12 sm:pt-24 lg:px-80 lg:py-24 lg:pt-32"
+        className="w-full h-full sm:bg-fixed bg-cover bg-center flex flex-col gap-8 justify-center p-6 pt-16 sm:p-12 sm:pt-24 lg:px-80 lg:py-24 lg:pt-32"
         style={{
           backgroundImage: `url(${bgImage})`,
         }}

@@ -42,6 +42,7 @@
     "graphql-tag": "^2.12.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-photo-album": "^2.0.3",
     "react-use": "^17.4.0",
     "swiper": "^9.1.0",
     "typographic-base": "^1.0.4",

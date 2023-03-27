@@ -14,7 +14,8 @@ import {getHeroPlaceholder} from '~/lib/placeholders';
 import {FeaturedCollections, Hero, WomanServices} from '~/components';
 import {Layout, ProductSwimlane, Offer} from '~/components/index.server';
 import {AboutUs} from '../components/index.server';
-import {Gallery} from '../components/Gallery.client';
+import {GalleryPreview} from '../components/GalleryPreview.client';
+import {PriceList} from '../components/sections/Pricelist.server';
 
 export default function Homepage() {
   useServerAnalytics({
@@ -64,8 +65,8 @@ function HomepageContent() {
       )}
       <Offer />
       <AboutUs />
-      <WomanServices />
-      <Gallery />
+      <PriceList />
+      <GalleryPreview title={'Galerie'} subtitle={'Lucrarile noastre'} />
       <ProductSwimlane
         data={featuredProducts.nodes}
         title="Featured Products"

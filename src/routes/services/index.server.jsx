@@ -11,7 +11,7 @@ export default function AllServices() {
       <Seo type="page" data={{title: 'All Services'}} />
       <Suspense>
         <PriceList withNav={true} />
-        <GalleryPreview title={'Galerie'} subtitle={'Lucrarile noastre'} />
+        <GalleryPreview title={'Galerie'} subtitle={'Afla mai mult'} />
       </Suspense>
     </Layout>
   );

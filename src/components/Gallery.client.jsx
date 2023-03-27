@@ -9,7 +9,7 @@ export const Gallery = ({images}) => {
 
   return (
     <section
-      className="w-full h-full bg-cover bg-center p-4 sm:p-16"
+      className="w-full h-full bg-cover bg-center px-4 py-8 sm:p-16 2xl:px-96"
       style={{
         backgroundImage: `url(${Wave})`,
       }}
@@ -31,8 +31,15 @@ export const Gallery = ({images}) => {
           <PhotoAlbum
             layout="rows"
             photos={images}
-            targetRowHeight={270}
+            targetRowHeight={(containerWidth) => {
+              if (containerWidth < 600) return 270;
+              if (containerWidth < 800) return 300;
+              if (containerWidth < 1200) return 350;
+              if (containerWidth < 1400) return 400;
+              return 450;
+            }}
             onClick={({index}) => setIndex(index)}
+            renderPhoto={renderPhoto}
           />
         </div>
       </div>
@@ -46,3 +53,11 @@ export const Gallery = ({images}) => {
     </section>
   );
 };
+
+const renderPhoto = ({imageProps: {alt, ...restImageProps}}) => (
+  <img
+    alt={alt}
+    {...restImageProps}
+    className="shadow-lg rounded-lg overflow-hidden bg-cover cursor-pointer"
+  />
+);

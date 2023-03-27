@@ -151,6 +151,9 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
               {item.title}
             </Link>
           ))}
+          <Link key={'services'} to={'/services'}>
+            Servicii
+          </Link>
         </nav>
       </div>
       <div className="flex items-center gap-1">

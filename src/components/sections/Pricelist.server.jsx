@@ -69,70 +69,218 @@ export const PriceList = ({withNav}) => {
 
 const SERVICE_PRICE_LIST = [
   {
-    category: 'Femei',
-    subtitle: 'Get An Incredible Beauty Experience with SPARKS',
+    category: 'Freză',
+    subtitle: '',
     services: [
       {
-        title: 'Tunsoare',
-        price: 700,
+        title: 'Freză păr scurt',
+        price: 300,
       },
       {
-        title: 'Vopsire',
-        price: 800,
+        title: 'Freză păr mediu',
+        price: 400,
       },
       {
-        title: 'Manichiură',
-        price: 450,
+        title: 'Freză păr lung',
+        price: 500,
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'Coafură',
+        price: '500 - 1000',
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'Aranjare',
+        price: '250 - 500',
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'Brushing',
+        price: '400 - 600',
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'Vopsirea părului',
+        price: '600 - 1500',
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'Balayage',
+        price: '1800 - 2800',
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'AirTouch',
+        price: '2500 - 4000',
       },
       {
-        title: 'Pedichiură',
-        price: 550,
+        title: 'Tonare',
+        price: '800 - 1800',
+      },
+      {
+        title: 'Vopsire rădacini',
+        price: '600 - 1000',
+      },
+      {
+        title: 'Nashi Argan FILER THERAPY',
+        price: '500 - 1000',
+      },
+      {
+        title: 'Davines Gloss',
+        price: '400 - 500',
+      },
+      {
+        title: 'Natural Tech Norshing',
+        price: '500 - 1000',
+      },
+      {
+        title: 'On Protection',
+        price: '500 - 1000',
       },
     ],
   },
   {
-    category: 'Bărbați',
-    subtitle: 'Get An Incredible Beauty Experience with SPARKS',
+    category: 'Make Up',
+    subtitle: '',
     services: [
       {
-        title: 'Tunsoare',
-        price: 200,
+        title: 'Expres machiaj',
+        price: 400,
       },
       {
-        title: 'Barbă',
+        title: 'Machiaj',
+        price: 650,
+      },
+      {
+        title: 'Machiaj de seara',
+        price: 850,
+      },
+      {
+        title: 'Gene false',
         price: 150,
       },
       {
-        title: 'Complex',
+        title: 'Stilizare sprincene',
+        price: 100,
+      },
+      {
+        title: 'Stilizare sprincene bărbați',
+        price: 150,
+      },
+      {
+        title: 'Vopsirea cu hena',
+        price: 250,
+      },
+      {
+        title: 'Biofixarea',
+        price: 400,
+      },
+      {
+        title: 'Biofixare + hena',
+        price: 450,
+      },
+      {
+        title: 'Extensii gene 2D',
+        price: 400,
+      },
+      {
+        title: 'Extensii gene 3D',
+        price: 500,
+      },
+      {
+        title: 'Extensii gene efect special',
+        price: 600,
+      },
+    ],
+  },
+  {
+    category: 'Nail',
+    subtitle: '',
+    services: [
+      {
+        title: 'Manichiură combinată',
+        price: 200,
+      },
+      {
+        title: 'Manichiură combinată bărbați',
+        price: 250,
+      },
+      {
+        title: 'Acoperire cu ojă',
+        price: 100,
+      },
+      {
+        title: 'Manichiură + Lac-gel / shellac',
+        price: 400,
+      },
+      {
+        title: 'Manichiură + Acoperire gel',
+        price: 450,
+      },
+      {
+        title: 'Manichiură + Alungire',
+        price: '450 - 650',
+      },
+      {
+        title: 'Inlăturare gel',
+        price: 100,
+      },
+      {
+        title: 'Design/franch',
+        price: 50,
+      },
+      {
+        title: 'Pedichiură complexă',
         price: 350,
       },
       {
-        title: 'Tonare',
+        title: 'Aplicare ojă',
+        price: 100,
+      },
+      {
+        title: 'Pedichiură + lac-gel',
+        price: 400,
+      },
+      {
+        title: 'Pedichiură complexă + lac-gel',
+        price: 500,
+      },
+      {
+        title: 'Pedichiură bărbați',
+        price: 500,
+      },
+    ],
+  },
+  {
+    category: 'BarberShop',
+    subtitle: '',
+    services: [
+      {
+        title: 'Tunsoare copil',
         price: 200,
+      },
+      {
+        title: 'Tunsoare copil (păr lung)',
+        price: 250,
+      },
+      {
+        title: 'Tunsoare bărbat',
+        price: 250,
+      },
+      {
+        title: 'Tunsoare bărbat (păr lung)',
+        price: 300,
+      },
+      {
+        title: 'Complex (tunsoare + barbă)',
+        price: 350,
+      },
+      {
+        title: 'Modelare barbă',
+        price: 150,
+      },
+      {
+        title: 'Epilare nas',
+        price: 50,
+      },
+      {
+        title: 'Epilare urechi',
+        price: 50,
       },
     ],
   },

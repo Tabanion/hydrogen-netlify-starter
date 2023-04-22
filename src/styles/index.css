@@ -9,6 +9,7 @@
   --color-accent: 191 72 0; /* Labels like "On sale" */
   --color-belise: 231 178 165;
   --color-belise-light: 252 245 245;
+  --color-modal: #fdfdfe;
   --font-size-fine: 0.75rem; /* text-xs */
   --font-size-copy: 1rem; /* text-base */
   --font-size-lead: 1.125rem; /* text-lg */

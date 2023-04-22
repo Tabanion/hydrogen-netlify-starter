@@ -69,6 +69,152 @@ export const PriceList = ({withNav}) => {
 
 const SERVICE_PRICE_LIST = [
   {
+    category: 'Epilare Definitvă Laser',
+    subtitle: '',
+    services: [
+      {
+        title: 'Picioare integral',
+        price: 1950,
+      },
+      {
+        title: 'Gambe',
+        price: 1100,
+      },
+      {
+        title: 'Coapse',
+        price: 1150,
+      },
+      {
+        title: 'Inghinal total',
+        price: 950,
+      },
+      {
+        title: 'Linia bikini',
+        price: 500,
+      },
+      {
+        title: 'Axile',
+        price: 400,
+      },
+      {
+        title: 'Mustața',
+        price: 250,
+      },
+      {
+        title: 'Barbie',
+        price: 200,
+      },
+      {
+        title: 'Gât',
+        price: 400,
+      },
+      {
+        title: 'Bachii / Perciuni',
+        price: 200,
+      },
+      {
+        title: 'Față integral',
+        price: 600,
+      },
+      {
+        title: 'Antebraț',
+        price: 750,
+      },
+      {
+        title: 'Degete',
+        price: 150,
+      },
+      {
+        title: 'Braț integral',
+        price: 800,
+      },
+      {
+        title: 'Interfesieri',
+        price: 250,
+      },
+      {
+        title: 'Fese',
+        price: 650,
+      },
+      {
+        title: 'Abdomen',
+        price: 500,
+      },
+      {
+        title: 'Piept',
+        price: 450,
+      },
+      {
+        title: 'Linia albă',
+        price: 250,
+      },
+      {
+        title: 'Spate complet ',
+        price: 700,
+      },
+      {
+        title: 'Lombar',
+        price: 500,
+      },
+      {
+        title: 'Tot copul',
+        price: 4400,
+      },
+      {
+        title: 'Barbă (Bărbați)',
+        price: 450,
+      },
+      {
+        title: 'Perciuni / Bachii (Bărbați)',
+        price: 400,
+      },
+      {
+        title: 'Gât (Bărbați)',
+        price: 500,
+      },
+      {
+        title: 'Axile (Bărbați)',
+        price: 600,
+      },
+      {
+        title: 'Piept (Bărbați)',
+        price: 900,
+      },
+      {
+        title: 'Abdomen (Bărbați)',
+        price: 900,
+      },
+      {
+        title: 'Piept + Abdomen (Bărbați)',
+        price: 1600,
+      },
+      {
+        title: 'Umeri (Bărbați)',
+        price: 750,
+      },
+      {
+        title: 'Spate Lombar Inferior (Bărbați)',
+        price: 800,
+      },
+      {
+        title: 'Spate Superior (Bărbați)',
+        price: 900,
+      },
+      {
+        title: 'Spate Integral (Bărbați)',
+        price: 1500,
+      },
+      {
+        title: 'Zona Intimă (Bărbați)',
+        price: 1200,
+      },
+      {
+        title: 'Tot Corpul (Bărbați)',
+        price: 7000,
+      },
+    ],
+  },
+  {
     category: 'Freză',
     subtitle: '',
     services: [

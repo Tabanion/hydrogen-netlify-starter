@@ -89,6 +89,7 @@ module.exports = {
         notice: withOpacityValue('--color-accent'),
         belise: withOpacityValue('--color-belise'),
         beliseLight: withOpacityValue('--color-belise-light'),
+        modal: 'var(--color-modal)',
         shopPay: 'var(--color-shop-pay)',
       },
       screens: {

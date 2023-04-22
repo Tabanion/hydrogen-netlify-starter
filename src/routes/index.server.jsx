@@ -11,11 +11,12 @@ import {
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
-import {FeaturedCollections, Hero, WomanServices} from '~/components';
+import {FeaturedCollections, Hero} from '~/components';
 import {Layout, ProductSwimlane, Offer} from '~/components/index.server';
 import {AboutUs} from '../components/index.server';
 import {GalleryPreview} from '../components/GalleryPreview.client';
 import {PriceList} from '../components/sections/Pricelist.server';
+import {PromoModal} from '~/components';
 
 export default function Homepage() {
   useServerAnalytics({
@@ -60,6 +61,7 @@ function HomepageContent() {
 
   return (
     <>
+      <PromoModal />
       {primaryHero && (
         <Hero {...primaryHero} height="full" top loading="eager" />
       )}

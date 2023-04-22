@@ -211,8 +211,8 @@ const SERVICII = [
   },
   {
     slug: 'woman-hairstyle',
-    title: 'Cuafură Femei',
-    description: `O cuafură bine executată nu doar că poate îmbunătăți aspectul părului tău, dar poate schimba și modul în care te simți și cum te percep ceilalți.`,
+    title: 'Coafură Femei',
+    description: `O coafură bine executată nu doar că poate îmbunătăți aspectul părului tău, dar poate schimba și modul în care te simți și cum te percep ceilalți.`,
     images: [
       {
         src: 'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/woman_hairstyle_2.jpg?v=1679947810',

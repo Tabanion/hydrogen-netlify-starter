@@ -18,7 +18,7 @@ const images = [
     height: 400,
   },
   {
-    categoryTitle: 'Cuafură Femei',
+    categoryTitle: 'Coafură Femei',
     slug: 'woman-hairstyle',
     src: 'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/woman_hairstyle_2.jpg?v=1679947810',
     width: 300,

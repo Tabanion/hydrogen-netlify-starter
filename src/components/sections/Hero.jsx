@@ -69,7 +69,7 @@ export function Hero({top}) {
                         </button>
                       </Link>
                     </div>
-                    <ChevronDown />
+                    <ChevronDown withMargin={true} />
                   </div>
                 </div>
               </div>

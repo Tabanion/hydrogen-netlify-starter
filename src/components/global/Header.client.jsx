@@ -157,7 +157,7 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
             </g>
           </svg>
         </div>
-        <a href="+37376778877" className="whitespace-nowrap text-xs">
+        <a href="tel:+37376778877" className="whitespace-nowrap text-xs">
           +373-76-77-88-77
         </a>
       </div>
@@ -257,7 +257,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
             </g>
           </svg>
         </div>
-        <a href="+37376778877">+373-76-77-88-77</a>
+        <a href="tel:+37376778877">+373-76-77-88-77</a>
         {/* <Link to={'/account'} className={styles.button}>
           <IconAccount />
         </Link>

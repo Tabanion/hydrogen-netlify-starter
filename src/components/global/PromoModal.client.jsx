@@ -28,7 +28,7 @@ export const PromoModal = () => {
                 className="p-4 -m-4 transition text-primary hover:text-primary/50"
                 onClick={() => setShowModal(false)}
               >
-                <IconClose aria-label="Close panel" />
+                <IconClose aria-label="Close panel" stroke="black" />
               </button>
             </div>
             <a href="https://www.instagram.com/sparks.md/">

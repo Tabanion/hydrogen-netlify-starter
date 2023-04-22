@@ -6,8 +6,6 @@ import {ChevronDown} from '../index';
 import Logo from '~/assets/images/S-logo.png';
 
 const images = [
-  'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/laser3.jpg?v=1682179210',
-  'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/IMG_3626.jpg?v=1678739989',
   'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/IMG_3606_2.jpg?v=1678739326',
   'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/IMG_3610_2.jpg?v=1678739346',
   'https://cdn.shopify.com/s/files/1/0724/4129/9229/files/IMG_3611.jpg?v=1678739914',
